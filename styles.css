@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#sortButton {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#dataContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.dataItem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
